@@ -55,6 +55,7 @@ const styles = {
     marginBlockEnd: 'var(--margin)',
     marginBlockStart: 'var(--margin)',
     marginInline: '3rem',
+    opacity: 'var(--opacity)',
     paddingBlock: '1rem',
     paddingInlineEnd: 'var(--padding)',
     paddingInlineStart: 'var(--padding)',
@@ -62,7 +63,8 @@ const styles = {
     textDecorationLine: 'underline',
     textShadow: '0 0 10px #000',
     transform: 'rotateX(45deg) scaleY(2) translateX(150px)',
-    transitionDelay: '500ms'
+    transitionDelay: '500ms',
+    transitionProperty: 'transform'
   },
   complex: {
     backgroundColor: 'var(--backgroundColor)',
@@ -79,12 +81,14 @@ const styles = {
     marginBlockEnd: 'var(--margin)',
     marginBlockStart: 'var(--margin)',
     marginInline: '3rem',
+    opacity: 'var(--opacity)',
     paddingBlock: '1rem',
     paddingInlineEnd: 'var(--padding)',
     paddingInlineStart: '0.5em',
     textDecorationLine: 'underline',
     transform: 'rotateX(90deg) scaleY(1.2) translateX(10px)',
     transitionDuration: '1s',
+    transitionProperty: 'opacity, transform',
     verticalAlign: 'top',
     width: {
       default: 300,
@@ -119,6 +123,7 @@ const customProperties = {
     color: 'green',
     height: 1000,
     margin: 16,
+    opacity: 0.5,
     padding: 32,
     width: 1000
   },
@@ -131,6 +136,7 @@ const customProperties = {
     color: 'blue',
     height: '90vh',
     margin: '1rem',
+    opacity: 0.5,
     padding: '2em',
     width: '90vw'
   }
